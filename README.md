@@ -4,6 +4,10 @@ This repository is the public application entrance for joining the QUANTSKILLS c
 
 QUANTSKILLS is an open community for Quant Skills, Agents, and Strategies. We welcome contributors interested in quantitative research, strategy development, AI Agent workflows, market data tools, documentation, and community operations.
 
+Before applying, please read the community rules:
+
+https://github.com/quantskills/join/blob/main/COMMUNITY_RULES.md
+
 ## Apply to Join
 
 Open a public join request:
@@ -26,7 +30,8 @@ Do not submit:
 
 1. Submit a public join request through the Issue Form.
 2. Maintainers review your public background, interests, and possible contribution direction.
-3. If approved, an organization administrator will invite you to the appropriate QUANTSKILLS team or project.
+3. Maintainers check that you understand the community rules.
+4. If approved, an organization administrator will invite you to the appropriate QUANTSKILLS team or project.
 
 ## Repository Ownership and Governance
 
