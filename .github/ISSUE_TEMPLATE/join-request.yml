@@ -1,0 +1,79 @@
+name: Join QUANTSKILLS
+description: Apply to join the QUANTSKILLS community as a contributor.
+title: "[Join] "
+labels: ["join-request"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for your interest in QUANTSKILLS.
+
+        This issue is public. Do not include private information such as phone number, WeChat ID, email address, government ID, password, API key, or private account credentials.
+
+  - type: input
+    id: github_username
+    attributes:
+      label: GitHub username
+      description: Your public GitHub username only.
+      placeholder: "example: songshuquant"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: contributor_type
+    attributes:
+      label: Contributor type
+      description: Choose the role that best describes you.
+      options:
+        - Quant researcher
+        - Strategy developer
+        - Python / data engineering developer
+        - AI Agent / LLM tooling developer
+        - Student / intern
+        - Documentation / community contributor
+        - Other
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: interests
+    attributes:
+      label: Areas of interest
+      description: Select the areas you would like to contribute to.
+      options:
+        - label: Skill package development
+        - label: Agent workflow development
+        - label: Strategy replication
+        - label: Alpha factor research and validation
+        - label: Market data and backtesting tools
+        - label: Documentation, tutorials, and examples
+        - label: Issue / Pull Request / community maintenance
+        - label: Project review and research reports
+
+  - type: textarea
+    id: background
+    attributes:
+      label: Public background
+      description: Briefly describe your skills, research direction, public projects, or learning status. Keep it public-safe.
+      placeholder: "Tell us what you are good at and what you want to build."
+    validations:
+      required: true
+
+  - type: textarea
+    id: public_projects
+    attributes:
+      label: Public projects or ideas
+      description: Optional. Share public GitHub links, strategy ideas, research topics, tools, or skills you may want to submit.
+      placeholder: "Only include public links or public-safe descriptions."
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: Confirmation
+      options:
+        - label: I understand this issue is public and I will not provide phone number, WeChat ID, email address, government ID, passwords, API keys, or other sensitive information.
+          required: true
+        - label: I agree to follow QUANTSKILLS open collaboration and community review rules.
+          required: true
