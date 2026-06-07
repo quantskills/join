@@ -28,6 +28,18 @@ Do not submit:
 2. Maintainers review your public background, interests, and possible contribution direction.
 3. If approved, an organization administrator will invite you to the appropriate QUANTSKILLS team or project.
 
+## Repository Ownership and Governance
+
+If a member creates a repository under the `quantskills` organization, the repository is owned by the QUANTSKILLS organization.
+
+The creator may maintain the project, update code, manage documentation, and handle Issues or Pull Requests for that repository according to the permissions granted to them.
+
+Organization owners retain final governance rights for all repositories under `github.com/quantskills`, including the right to rename, archive, transfer, restrict access to, or delete repositories when necessary.
+
+Member-created repositories are considered Community Projects by default. They do not automatically represent official QUANTSKILLS validation or endorsement.
+
+Projects may later be reviewed and marked as Listed, Runnable, or Verified according to community rules.
+
 ## What You Can Contribute
 
 - Skill package development

@@ -10,6 +10,8 @@ body:
 
         This issue is public. Do not include private information such as phone number, WeChat ID, email address, government ID, password, API key, or private account credentials.
 
+        If you are invited as a member, repositories created under `github.com/quantskills` are owned by the QUANTSKILLS organization. Project creators may maintain their own repositories, but organization owners retain final governance rights, including archive, transfer, access restriction, or deletion when necessary.
+
   - type: input
     id: github_username
     attributes:
@@ -76,4 +78,6 @@ body:
         - label: I understand this issue is public and I will not provide phone number, WeChat ID, email address, government ID, passwords, API keys, or other sensitive information.
           required: true
         - label: I agree to follow QUANTSKILLS open collaboration and community review rules.
+          required: true
+        - label: I understand that repositories created under the QUANTSKILLS organization are organization-owned Community Projects by default, and organization owners retain final governance rights.
           required: true
