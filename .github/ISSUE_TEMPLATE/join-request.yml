@@ -10,7 +10,7 @@ body:
 
         This issue is public. Do not include private information such as phone number, WeChat ID, email address, government ID, password, API key, or private account credentials.
 
-        If you are invited as a member, repositories created under `github.com/quantskills` are owned by the QUANTSKILLS organization. Project creators may maintain their own repositories, but organization owners retain final governance rights, including archive, transfer, access restriction, or deletion when necessary.
+        If you are invited as a member, repositories created under `github.com/quantskills` are hosted and governed within the QUANTSKILLS organization. Project creators keep authorship, credit, and contribution history for their work, while organization owners retain final governance rights, including archive, transfer, access restriction, or deletion when necessary.
 
   - type: input
     id: github_username
@@ -79,5 +79,5 @@ body:
           required: true
         - label: I agree to follow QUANTSKILLS open collaboration and community review rules.
           required: true
-        - label: I understand that repositories created under the QUANTSKILLS organization are organization-owned Community Projects by default, and organization owners retain final governance rights.
+        - label: I understand that repositories created under the QUANTSKILLS organization are hosted Community Projects by default. Project creators keep authorship and credit, while organization owners retain final governance rights.
           required: true
