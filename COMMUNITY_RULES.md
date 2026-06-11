@@ -54,6 +54,22 @@ Each repository should include a declaration file at the repository root:
 
 The declaration file should explain what the project does, how to use it, who maintains it, what scenarios it supports, and any important limitations.
 
+Each repository should also declare its upstream organization and repository metadata in `SKILL.md`, `AGENT.md`, or a project manifest such as `skill.yml` / `agent.yml`.
+
+Example:
+
+```yaml
+metadata:
+  organization: QuantSkills
+  organization_url: https://github.com/quantskills
+  repository: skill-quant-factor-directional-alpha
+  repository_url: https://github.com/quantskills/skill-quant-factor-directional-alpha
+  project_type: skill
+  collection: directional-alpha
+```
+
+This helps AI Agents, registry tools, maintainers, and downstream users identify the upstream source of a project after it is copied, forked, downloaded, or indexed.
+
 QUANTSKILLS may use AI-assisted tools to scan organization repositories, read repository names, `SKILL.md` / `AGENT.md`, README files, and descriptions, then help maintain the public registry.
 
 Final listing, recommendation, validation, or official recognition still requires maintainer review.
