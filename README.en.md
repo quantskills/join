@@ -11,7 +11,7 @@
 
 This repository is the public application entrance for joining the **QUANTSKILLS community**.
 
-QUANTSKILLS is an open community for **Quant Skills, Agents, and Strategies**. We welcome contributors interested in quantitative research, strategy development, AI Agent workflows, market data tools, documentation, and community operations.
+QUANTSKILLS is an open community for **Quant Skills and Agents**. We welcome contributors interested in quantitative research, strategy development, AI Agent workflows, market data tools, documentation, and community operations.
 
 > Before applying, please read the community rules: [COMMUNITY_RULES.md](COMMUNITY_RULES.md)
 
@@ -59,7 +59,7 @@ Join requests are **public**. Do not submit:
 |---|---|
 | 🛠️ Skill development | Build and maintain quant skill packages |
 | 🤖 Agent workflows | Design and implement AI Agent workflows |
-| 📈 Strategy replication | Replicate strategies from papers / research reports |
+| 📈 Trading / research Skills | Replication from papers / research reports, strategy templates, and validation notes |
 | 🧮 Factor research | Alpha factor research and validation |
 | 📊 Data & backtesting | Market data and backtesting tools |
 | 📚 Documentation | Documentation, tutorials, and examples |

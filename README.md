@@ -11,7 +11,7 @@
 
 本仓库是加入 **QUANTSKILLS 社区**的公开申请入口。
 
-QUANTSKILLS 是一个面向 **Quant Skills（量化技能）、Agents（智能体）、Strategies（策略）** 的开放社区。我们欢迎对量化研究、策略开发、AI Agent 工作流、行情数据工具、文档建设和社区运营感兴趣的贡献者。
+QUANTSKILLS 是一个面向 **Quant Skills（量化技能）** 和 **Agents（智能体）** 的开放社区。我们欢迎对量化研究、策略开发、AI Agent 工作流、行情数据工具、文档建设和社区运营感兴趣的贡献者。
 
 > 申请前请先阅读社区规则：[COMMUNITY_RULES.md](COMMUNITY_RULES.md)
 
@@ -59,7 +59,7 @@ flowchart LR
 |---|---|
 | 🛠️ Skill 开发 | 量化技能包的开发与维护 |
 | 🤖 Agent 工作流 | AI Agent 工作流的设计与实现 |
-| 📈 策略复现 | 论文/研报策略复现 |
+| 📈 投研 Skill | 论文/研报复现、策略模板与验证说明 |
 | 🧮 因子研究 | Alpha 因子研究与有效性验证 |
 | 📊 数据与回测 | 行情数据与回测工具 |
 | 📚 文档建设 | 文档、教程与示例 |
