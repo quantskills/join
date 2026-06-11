@@ -157,7 +157,6 @@ Repositories under the QUANTSKILLS organization should use one of the following 
 
 - `skill-` for reusable capabilities, such as factors, strategy templates, data processing, report replication, validation utilities, research components, prompts, examples, or tools
 - `agent-` for AI Agents or automated workflows, such as research replication agents, strategy audit agents, data processing agents, review agents, or multi-step task systems
-- `strategy-` for strategy assets, especially trading rules, factor strategies, model strategies, portfolio workflows, or PandaAI QuantFlow-generated strategies with validation evidence
 
 Examples:
 
@@ -166,8 +165,6 @@ Examples:
 - `skill-factor-validation`
 - `agent-research-replication`
 - `agent-strategy-auditor`
-- `strategy-directional-alpha`
-- `strategy-quantflow-factor-rotation`
 
 Repository names should be lowercase and use hyphens instead of spaces or underscores.
 
@@ -175,13 +172,10 @@ Each repository should include a declaration file at the repository root:
 
 - `SKILL.md` for Skill repositories
 - `AGENT.md` for Agent repositories
-- `STRATEGY.md` for Strategy repositories
 
 The declaration file should explain what the project does, how to use it, who maintains it, what scenarios it supports, and any important limitations.
 
-For Strategy repositories, the declaration file should also describe the strategy logic, data sources, assumptions, parameters, rebalancing or execution rules, backtest evidence, risk boundaries, and whether the project is for research or educational use only.
-
-Each repository should also declare its upstream organization and repository metadata in `SKILL.md`, `AGENT.md`, `STRATEGY.md`, or a project manifest such as `skill.yml`, `agent.yml`, or `strategy.yml`.
+Each repository should also declare its upstream organization and repository metadata in `SKILL.md`, `AGENT.md`, or a project manifest such as `skill.yml` / `agent.yml`.
 
 Example:
 
@@ -189,15 +183,15 @@ Example:
 metadata:
   organization: QuantSkills
   organization_url: https://github.com/quantskills
-  repository: strategy-quant-factor-directional-alpha
-  repository_url: https://github.com/quantskills/strategy-quant-factor-directional-alpha
-  project_type: strategy
+  repository: skill-quant-factor-directional-alpha
+  repository_url: https://github.com/quantskills/skill-quant-factor-directional-alpha
+  project_type: skill
   collection: directional-alpha
 ```
 
 This helps AI Agents, registry tools, maintainers, and downstream users identify the upstream source of a project after it is copied, forked, downloaded, or indexed.
 
-QUANTSKILLS may use AI-assisted tools to scan organization repositories, read repository names, `SKILL.md` / `AGENT.md` / `STRATEGY.md`, README files, and descriptions, then help maintain the public registry.
+QUANTSKILLS may use AI-assisted tools to scan organization repositories, read repository names, `SKILL.md` / `AGENT.md`, README files, and descriptions, then help maintain the public registry.
 
 Final listing, recommendation, validation, or official recognition still requires maintainer review.
 
