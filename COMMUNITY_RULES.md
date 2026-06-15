@@ -56,11 +56,11 @@ QUANTSKILLS 组织下的仓库应使用以下小写前缀之一：
 每个仓库根目录应包含一个声明文件：
 
 - Skill 仓库使用 `SKILL.md`
-- Agent 仓库使用 `AGENT.md`
+- Agent 仓库使用 `AGENTS.md`
 
 声明文件应说明项目做什么、如何使用、由谁维护、支持哪些场景，以及有哪些重要限制。
 
-每个仓库还应在 `SKILL.md`、`AGENT.md`，或 `skill.yml` / `agent.yml` 等项目清单中声明上游组织和仓库元数据。
+每个仓库还应在 `SKILL.md`、`AGENTS.md`，或 `skill.yml` / `agent.yml` 等项目清单中声明上游组织和仓库元数据。
 
 示例：
 
@@ -76,7 +76,7 @@ metadata:
 
 这有助于 AI Agents、注册表工具、维护者和下游用户在项目被复制、fork、下载或索引后，识别项目的上游来源。
 
-QUANTSKILLS 可以使用 AI 辅助工具扫描组织仓库，读取仓库名称、`SKILL.md` / `AGENT.md`、README 文件和描述，并协助维护公开注册表。
+QUANTSKILLS 可以使用 AI 辅助工具扫描组织仓库，读取仓库名称、`SKILL.md` / `AGENTS.md`、README 文件和描述，并协助维护公开注册表。
 
 最终的收录、推荐、验证或官方认可仍需维护者审核。
 
@@ -171,11 +171,11 @@ Repository names should be lowercase and use hyphens instead of spaces or unders
 Each repository should include a declaration file at the repository root:
 
 - `SKILL.md` for Skill repositories
-- `AGENT.md` for Agent repositories
+- `AGENTS.md` for Agent repositories
 
 The declaration file should explain what the project does, how to use it, who maintains it, what scenarios it supports, and any important limitations.
 
-Each repository should also declare its upstream organization and repository metadata in `SKILL.md`, `AGENT.md`, or a project manifest such as `skill.yml` / `agent.yml`.
+Each repository should also declare its upstream organization and repository metadata in `SKILL.md`, `AGENTS.md`, or a project manifest such as `skill.yml` / `agent.yml`.
 
 Example:
 
@@ -191,7 +191,7 @@ metadata:
 
 This helps AI Agents, registry tools, maintainers, and downstream users identify the upstream source of a project after it is copied, forked, downloaded, or indexed.
 
-QUANTSKILLS may use AI-assisted tools to scan organization repositories, read repository names, `SKILL.md` / `AGENT.md`, README files, and descriptions, then help maintain the public registry.
+QUANTSKILLS may use AI-assisted tools to scan organization repositories, read repository names, `SKILL.md` / `AGENTS.md`, README files, and descriptions, then help maintain the public registry.
 
 Final listing, recommendation, validation, or official recognition still requires maintainer review.
 
